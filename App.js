@@ -5,7 +5,7 @@ import MovieModal from './components/MovieModal';
 import Favourites from './components/Favourites';
 import './index.css';
 
-const API_KEY = 'REACT_APP_API_KEY';
+const API_KEY = process.env.REACT_APP_API_KEY;
 const BASE_URL = 'https://api.themoviedb.org/3';
 const IMG_URL = 'https://image.tmdb.org/t/p/w500';
 
